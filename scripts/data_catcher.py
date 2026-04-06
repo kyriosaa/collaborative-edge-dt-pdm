@@ -13,7 +13,7 @@ from config import COLOR as C
 SERIAL_PORT = 'COM5' 
 BAUD_RATE = 921600 
 save_directory = '../datasets/raw/'
-csv_filename = 'healthy_motor_baseline.csv'
+csv_filename = 'loose_motor_baseline.csv'
 full_path = os.path.join(save_directory, csv_filename)
 os.makedirs(save_directory, exist_ok=True)
 
